@@ -349,10 +349,13 @@ a.navbar-brand {
 }
 
 
-.depoimentos {
-    padding-top: 100px;
-    padding-bottom: 150px;
-}
+.hidden {
+    display: none; /* Esconde o depoimento */
+  }
+  
+  .depoimento {
+    transition: opacity 0.3s ease; /* Suaviza a transição ao mostrar o depoimento */
+  }
 
 .background-depoimentos {
     position: absolute;
